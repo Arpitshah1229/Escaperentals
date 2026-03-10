@@ -1,0 +1,39 @@
+.admin-payments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-payments h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  padding : 50px;
+}
+
+.admin-payments-table {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.admin-payments-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-payments-table th {
+  font-size: 13px;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.admin-payments-table td {
+  padding: 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #f1f5f9;
+}

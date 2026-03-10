@@ -1,0 +1,66 @@
+/* Page Wrapper */
+.users-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 40px;
+}
+
+/* Card */
+.users-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Title */
+.users-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+/* Table */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Head */
+.users-table thead th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 14px 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Table Body */
+.users-table tbody td {
+  padding: 16px 12px;
+  font-size: 14px;
+  color: #111827;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* Row Hover */
+.users-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+/* Block Button */
+.block-btn {
+  background: transparent;
+  border: none;
+  color: #dc2626;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.block-btn:hover {
+  text-decoration: underline;
+}

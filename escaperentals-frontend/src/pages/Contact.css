@@ -1,0 +1,58 @@
+.static-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.static-page h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.static-page .intro {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 36px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.contact-form button {
+  padding: 12px;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

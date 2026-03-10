@@ -1,0 +1,264 @@
+.booking-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eee;
+}
+
+/* CHECK AVAILABILITY */
+/* .booking-card button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+} */
+
+/* Check Availability */
+/* .booking-card button:first-of-type {
+  background: #111;
+  color: #fff;
+}
+
+.booking-card button:first-of-type:hover {
+  background: #000;
+  transform: translateY(-1px);
+} */
+
+/* Reserve Button */
+/* .booking-card button:last-of-type {
+  background: linear-gradient(135deg, #ff385c, #ff1f4b);
+  color: white;
+  box-shadow: 0 8px 20px rgba(255, 56, 92, 0.3);
+} */
+
+/* .booking-card button:last-of-type:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(255, 56, 92, 0.4);
+} */
+
+/* Disabled */
+/* .booking-card button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+} */
+
+/* Price Summary */
+/* .price-summary {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  font-size: 15px;
+} */
+
+/* .price-summary strong {
+  font-size: 18px;
+  color: #111;
+} */
+
+/* Error */
+/* .booking-card p {
+  margin-top: 10px;
+  font-size: 14px;
+} */
+
+
+/* .booking-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eaeaea;
+  position: sticky;
+  top: 20px;
+} */
+
+/* .booking-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+} */
+
+/* Price Summary */
+/* .price-summary {
+  background: #f8f8f8;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 12px;
+  font-size: 15px;
+} */
+
+/* .price-summary strong {
+  font-size: 18px;
+  color: #111;
+} */
+
+/* Buttons */
+.booking-card button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Check Availability */
+ .booking-card button:first-of-type {
+  background: #111;
+  color: white;
+}
+
+.booking-card button:first-of-type:hover {
+  background: #000;
+  transform: translateY(-1px);
+} 
+
+/* Reserve Button */
+.booking-card button:last-of-type {
+  background: linear-gradient(135deg, #ff385c, #ff1f4b);
+  color: white;
+  box-shadow: 0 8px 20px rgba(255, 56, 92, 0.35);
+}
+
+.booking-card button:last-of-type:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(255, 56, 92, 0.45);
+} 
+
+/* Disabled Button */
+.booking-card button:disabled {
+  background: #d3d3d3;
+  cursor: not-allowed;
+  box-shadow: none;
+} 
+
+/* Error message */
+.booking-card p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Not available text */
+.booking-card p[style*="red"] {
+  font-weight: 600;
+}
+
+/* Fix react-date-range inside sidebar */
+/* .booking-card .rdrCalendarWrapper {
+  width: 100%;
+  max-width: 100%;
+}
+
+.booking-card .rdrMonth {
+  width: 100% !important;
+}
+
+.booking-card .rdrWeekDays,
+.booking-card .rdrDays {
+  width: 100%;
+}
+
+.booking-card .rdrDay {
+  height: 38px;
+}
+
+.booking-card .rdrDayNumber span {
+  font-size: 14px;
+} */
+
+
+
+
+
+
+
+
+
+/* FORCE react-date-range to fit inside booking card */
+/* .booking-card .rdrDateRangeWrapper,
+.booking-card .rdrCalendarWrapper,
+.booking-card .rdrMonth {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.booking-card .rdrMonths {
+  flex-direction: row !important;
+}
+
+.booking-card .rdrMonthAndYearWrapper {
+  padding: 8px 0;
+}
+
+.booking-card .rdrDay {
+  height: 36px;
+}
+
+.booking-card .rdrDayNumber span {
+  font-size: 13px;
+} */
+
+
+/* ============================= */
+/*  REACT DATE RANGE SIDEBAR FIX */
+/* ============================= */
+
+.booking-card .rdrDateRangeWrapper {
+  width: 100% !important;
+}
+
+.booking-card .rdrMonths {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+}
+
+.booking-card .rdrMonth {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.booking-card .rdrCalendarWrapper {
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.booking-card .rdrWeekDays,
+.booking-card .rdrDays {
+  width: 100% !important;
+}
+
+.booking-card .rdrDay {
+  height: 36px !important;
+  width: 14.28% !important;
+}
+
+.booking-card .rdrDayNumber span {
+  font-size: 13px !important;
+}
+
+/* Remove huge top date boxes */
+.booking-card .rdrDateDisplayWrapper {
+  display: none !important;
+}
+
+/* Make header compact */
+.booking-card .rdrMonthAndYearWrapper {
+  padding: 8px 0 !important;
+}
+
+/* Prevent vertical stretching */
+.booking-card .rdrDefinedRangesWrapper {
+  display: none !important;
+}

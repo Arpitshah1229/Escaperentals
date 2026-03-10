@@ -1,0 +1,64 @@
+.booknow-section {
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.booknow-content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  width: 420px;
+  border-radius: 12px;
+}
+
+.booknow-content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.booknow-content h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.booknow-content h3 span {
+  font-size: 16px;
+  color: #555;
+}
+
+.booknow-content p {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.booknow-content button {
+  padding: 12px 26px;
+  border: 2px solid #000;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.booknow-content button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .booknow-section {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .booknow-content {
+    width: 100%;
+  }
+}

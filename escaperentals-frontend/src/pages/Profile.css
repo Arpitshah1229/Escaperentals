@@ -1,0 +1,169 @@
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.profile-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.profile-card p {
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+}
+
+.profile-card b {
+  color: #000;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin: 30px 0 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+table thead {
+  background: #000;
+  color: #fff;
+}
+
+table th,
+table td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-confirmed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-cancelled {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.bookings-table th,
+.bookings-table td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 15px;
+}
+
+.bookings-table th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.status-pending {
+  background: #fff7ed;
+  color: #b45309;
+}
+
+.status-confirmed {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+.status-cancelled {
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.cancel-btn {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;  
+}
+
+.cancel-btn:hover {
+  opacity: 0.9;
+}
+
+.muted {
+  color: #9ca3af;
+}
+
+
+
+/* .modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; 
+}
+
+.modal {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  width: 380px;
+  max-width: 90%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  z-index: 10000; 
+} */

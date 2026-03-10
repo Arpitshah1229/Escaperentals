@@ -1,0 +1,27 @@
+.my-bookings-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.my-bookings-page h1 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.bookings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+}
+
+.empty-state {
+  padding: 40px;
+  text-align: center;
+  background: #fafafa;
+  border-radius: 14px;
+}
+
+.page-padding {
+  padding: 24px;
+}

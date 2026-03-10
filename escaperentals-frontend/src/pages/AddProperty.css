@@ -1,0 +1,132 @@
+/* PAGE WRAPPER */
+.add-property-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f8f9fb, #ffffff);
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-property-wrapper {
+  width: 100%;
+  max-width: 720px;
+}
+
+/* CARD */
+.add-property-form {
+  width: 100%;
+  max-width: 720px;
+  background: #ffffff;
+  padding: 48px;
+  border-radius: 18px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.08);
+}
+
+/* TITLE */
+.add-property-page h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #111;
+  text-align: center;
+}
+
+/* INPUTS */
+.add-property-form input,
+.add-property-form textarea,
+.add-property-form select {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.25s ease;
+  background: #fff;
+}
+
+/* TEXTAREA */
+.add-property-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* FOCUS STATE */
+.add-property-form input:focus,
+.add-property-form textarea:focus,
+.add-property-form select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+/* FILE INPUT */
+.add-property-form input[type="file"] {
+  padding: 14px;
+  border: 2px dashed #c7d2fe;
+  background: #f8faff;
+  cursor: pointer;
+}
+
+.add-property-form input[type="file"]::file-selector-button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+/* BUTTON */
+.add-property-form button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-upload {
+  border: 2px dashed #c7d2fe;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  background: #f8fafc;
+}
+
+/* BUTTON HOVER */
+.add-property-form button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(37, 99, 235, 0.35);
+}
+
+/* DISABLED BUTTON */
+.add-property-form button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+
+
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .add-property-form {
+    padding: 32px 24px;
+  }
+
+  .add-property-page h2 {
+    font-size: 24px;
+  }
+}

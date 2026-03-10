@@ -1,0 +1,175 @@
+/* PAGE */
+.container {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+.container h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+/* TOP ACTIONS */
+.container > a {
+  display: inline-block;
+  margin-right: 14px;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.container > a:hover {
+  text-decoration: underline;
+}
+
+/* PRIMARY BUTTON */
+.primary-btn {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.35);
+}
+
+/* TABLE */
+.bookings-table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+/* TABLE HEADER */
+.bookings-table thead {
+  background: #f8fafc;
+}
+
+.bookings-table th {
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* TABLE BODY */
+.bookings-table td {
+  padding: 16px;
+  font-size: 15px;
+  color: #0f172a;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: middle;
+}
+
+/* ROW HOVER */
+.bookings-table tbody tr:hover {
+  background: #f9fbff;
+}
+
+/* STATUS BADGES */
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* STATUS COLORS */
+.status-confirmed {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.status-pending {
+  background: #fff7ed;
+  color: #d97706;
+}
+
+.status-cancelled {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+/* ACTION BUTTONS */
+.bookings-table button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 6px;
+  transition: all 0.2s ease;
+}
+
+/* VIEW */
+.view-btn {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.view-btn:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* APPROVE */
+.bookings-table button:nth-child(2) {
+  border-color: #16a34a;
+  color: #16a34a;
+}
+
+.bookings-table button:nth-child(2):hover {
+  background: #16a34a;
+  color: white;
+}
+
+/* REJECT */
+.bookings-table button:nth-child(3) {
+  border-color: #dc2626;
+  color: #dc2626;
+}
+
+.bookings-table button:nth-child(3):hover {
+  background: #dc2626;
+  color: white;
+}
+
+/* EMPTY STATE */
+.container p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #64748b;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .bookings-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+}

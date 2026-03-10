@@ -1,0 +1,112 @@
+.btn-approve {
+  background: #16a34a;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.btn-reject {
+  background: #dc2626;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+/* Page wrapper */
+.admin-properties {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Page title */
+.admin-properties h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  padding: 50px;
+}
+
+/* Table container */
+.admin-properties-table {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+/* Table */
+.admin-properties-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header */
+.admin-properties-table thead th {
+  text-align: left;
+  font-size: 13px;
+  color: white;
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Body cells */
+.admin-properties-table tbody td {
+  padding: 14px;
+  font-size: 14px;
+  color: #111827;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: middle;
+}
+
+/* Property title emphasis */
+.property-title {
+  font-weight: 500;
+}
+
+/* Price */
+.property-price {
+  font-weight: 500;
+  color: #2563eb;
+}
+
+/* Actions */
+.property-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Approve button */
+.btn-approve {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-approve:hover {
+  background: #15803d;
+}
+
+/* Reject button */
+.btn-reject {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-reject:hover {
+  background: #b91c1c;
+}

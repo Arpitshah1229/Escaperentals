@@ -1,0 +1,57 @@
+.host-section {
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.host-section h2 {
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #777;
+  margin: 10px 0 50px;
+}
+
+.host-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.host-card {
+  background: #fff;
+  padding: 35px 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.host-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.host-card h3 {
+  margin-bottom: 5px;
+}
+
+.host-card span {
+  font-size: 14px;
+  color: #777;
+}
+
+.host-card p {
+  font-size: 15px;
+  margin-top: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .host-grid {
+    grid-template-columns: 1fr;
+  }
+}
